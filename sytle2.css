@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+header {
+    background-color: #ffd700;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+h1{
+    font-size:2rem;
+    text-align: left;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.primary-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color:green;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.primary-button:hover {
+    background-color: #0056b3;
+}
+
+.image-buttons {
+    display: flex;
+    flex-wrap: wrap; /* Allow multiple rows */
+    justify-content: center;
+    margin-bottom: 20px; /* Add margin at the bottom of the image buttons */
+}
+
+.image-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px; /* Add margin around each image button */
+}
+
+.image-button img {
+    width: 150px; /* Adjust image width as needed */
+    height: auto;
+    padding: 10px; /* Add padding inside the image button */
+}
+
+.image-button p {
+    margin-top: 5px; /* Add margin between image and text */
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    text-decoration: none; /* Remove text decoration */
+}
+
+.primary-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px; /* Add margin around the button */
+    text-decoration: none; /* Remove text decoration */
+}
+
+.primary-button:hover {
+    background-color: #0056b3;
+}
